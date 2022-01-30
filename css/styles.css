@@ -257,7 +257,7 @@ a{
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    background-color: #FFFFFF ;
+ 
 }
 .navigation{
     display: flex;
@@ -549,17 +549,13 @@ justify-content: center;
 font-style: normal;
 font-weight: bold;
 font-size: 14px;
-line-height: 1.14px;
+line-height: 1.14;
 color: white;
     }
  .footer-container{
   display:flex;
   align-items: baseline;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
- margin: 0 auto;    
-    }
+      }
  .footer-social-link{
      margin-top: 20px;   
  }
@@ -580,6 +576,6 @@ color: white;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
  }    
 .footer-social-list{
-    display: flex;
+  margin-left: 70px;
     } 
 
