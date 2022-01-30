@@ -31,9 +31,6 @@ line-height: 1,14;
 letter-spacing: 0.02em;
 color: #757575;
 }
-.nav-link:hover,
-.nav-link:focus {
-    color: #2196F3}
 
 .main {
     padding-top: 200px;
@@ -62,7 +59,7 @@ margin-bottom: 30px;
     padding: 10px 32px ;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1,88;
+    line-height: 1.88;
     letter-spacing: 0.06em;
     text-align: center;
     background: #2196F3;
@@ -463,12 +460,9 @@ margin-left: 10px;
 .header-contacts-icon{
     margin-right: 10px;
    align-items: center;
-   fill:  #757575;
+   fill: currentColor;
    }
-   .header-contacts-icon:hover,
-   .header-contacts-icon:focus{
-    fill:#2196F3 ;
-     } 
+   
 .main-icons {
     background-color: #F5F4FA;
     display: flex;
@@ -499,24 +493,24 @@ margin-left: 10px;
 }
 .clients-social-icons{
     align-items: center;
-    fill: #AFB1B8;
-  justify-content: center;
+   justify-content: center;
 }
-.clients-item{
-    display: block;
-border: 1px solid #AFB1B8;
-border-radius: 4px;
-align-items: center;
-justify-content: center;
-}
-.clients-social-icons:hover,
-.clients-social-icons:focus{
-    fill:#2196F3;
-}
+.
+.clients-item:last-child {
+    margin-right: 0;  
+    }
+  .nav-link:hover,
+  .nav-link:focus{
+      color: #2196F3;
+    fill:currentColor 
+
+  }  
+
+
  .clients-social-link:hover , 
  .clients-social-link:focus  {
       border-color:#2196F3  ;
-         fill: #2196F3 
+         fill: #2196F3 ;
 }
 .clients-social-link{
     border: 1px solid rgba(175, 177, 184, 1);
@@ -528,6 +522,7 @@ justify-content: center;
   width: 100%;
   height: 100%;
 }
+
 .footer-social-link
 { width: 44px;
     height: 44px; background-color: rgba(255, 255, 255, 0.1);
@@ -551,13 +546,14 @@ font-weight: bold;
 font-size: 14px;
 line-height: 1.14;
 color: white;
+margin-bottom: 20px;
     }
  .footer-container{
   display:flex;
   align-items: baseline;
       }
  .footer-social-link{
-     margin-top: 20px;   
+       
  }
   .footer-social-link:hover{
       background-color:#2196F3 ;
@@ -569,7 +565,7 @@ color: white;
 
 .footer-social-icons {
     align-items: center;
-    fill: #AFB1B8;
+    fill: #FFFFFF;
   justify-content: center;}  
  .portf-item:hover,
  .portf-item:focus {
